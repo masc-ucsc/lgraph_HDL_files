@@ -1,9 +1,11 @@
 filegroup(
-  name = "asic_world_v_files",
-  srcs = glob(["asic_world/*.v"]),
+  name       = "asic_world_v_files",
+  srcs       = glob(["asic_world/*.v"]),
+  visibility = ["//visibility:public"],
 )
 
 filegroup(
-  name = "misc_v_files",
-  srcs = glob(["misc/*.v"]),
+  name       = "misc",
+  srcs       = glob(["misc/*.v"]),
+  visibility = ["//visibility:public"],
 )
