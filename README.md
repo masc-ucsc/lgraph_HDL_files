@@ -1,2 +1,2 @@
 # lgraph_HDL_files
-Remote repository for HDL files used by lgraph
+This repo contains all the HDL files during the testing, verification, and execution of lgraph.
